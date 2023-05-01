@@ -1,27 +1,35 @@
-# MycellarSite
+# FormulaNews Web - Manuel D’utilisation
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.14.
+[![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](http://forthebadge.com)  [![forthebadge](http://forthebadge.com/images/badges/powered-by-electricity.svg)](http://forthebadge.com)
 
-## Development server
+## Prérequis
+Afin de pouvoir exécuter l'application sur votre poste, vous devez d'aborder installer les dépendances suivantes :
+  * NodeJS
+  * Angular cli
+ 
+### Installation
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+#### Node
+- Télécharger la version LTS de NodeJS [ici](https://nodejs.org/fr/download/)
+- Suivre les étapes d'installation en laissant les options par défaut.
+ 
+### Angular cli
+- Après avoir installé NodeJS, ouvrir une invite de commande
+- Taper `npm install -g @angular/cli@11.2.14`
+  
+## Exécution
+ 
+- Ouvrir une invite de commande à la racine du projet
+- S'assurer d'avoir les dépendance npm installées `npm install`
+ 
+- Exécuter `ng serve`
+ 
+- Ouvrir un navigateur à l'adresse [http://localhost:4200/](http://localhost:4200/)
 
-## Code scaffolding
+## Versions
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- v1.0.0
 
-## Build
+## Auteurs
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- damienmonchaty@gmail.com
