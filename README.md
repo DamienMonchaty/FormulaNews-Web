@@ -16,7 +16,7 @@ Afin de pouvoir exécuter l'application sur votre poste, vous devez d'aborder in
  
 ### Angular cli
   1. Après avoir installé NodeJS, ouvrir une invite de commande
-  2. Taper `npm install -g @angular/cli`
+  2. Taper `npm install -g @angular/cli@11.2.14`
   
 ## Exécution
  
@@ -25,5 +25,4 @@ Afin de pouvoir exécuter l'application sur votre poste, vous devez d'aborder in
  
 3. Exécuter `ng serve`
  
-Puis :
 4. Ouvrir un navigateur à l'adresse [http://localhost:4200/](http://localhost:4200/)
