@@ -24,8 +24,8 @@ jobs:
       - name: npm install, build, and test
         run: |
           npm install
-          npm run build --if-present
-          npm run test --if-present
+          npm run build --prod
+        working-directory: .
       
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v2
@@ -51,6 +51,5 @@ jobs:
         id: deploy-to-webapp
         with:
           app-name: 'FormulaNews'
-          slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_E6544609BAE645F0B2D737DC5A5B3EDB }}
-          package: .
+          package: ./dist/foneapp-site
