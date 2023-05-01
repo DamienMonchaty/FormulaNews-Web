@@ -1,27 +1,29 @@
-# MycellarSite
+# FormulaNews Web - Manuel D’utilisation
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.14.
+[![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](http://forthebadge.com)  [![forthebadge](http://forthebadge.com/images/badges/powered-by-electricity.svg)](http://forthebadge.com)
 
-## Development server
+## Prérequis
+Afin de pouvoir exécuter l'application sur votre poste, vous devez d'aborder installer les dépendances suivantes :
+  * NodeJS
+  * Angular cli
+  * nginx
+ 
+### Installation
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+#### Node
+  1. Télécharger la version LTS de NodeJS [ici](https://nodejs.org/fr/download/)
+  2. Suivre les étapes d'installation en laissant les options par défaut.
+ 
+### Angular cli
+  1. Après avoir installé NodeJS, ouvrir une invite de commande
+  2. Taper `npm install -g @angular/cli`
+  
+## Exécution
+ 
+1. Ouvrir une invite de commande à la racine du projet
+2. S'assurer d'avoir les dépendance npm installées `npm install`
+ 
+3. Exécuter `ng serve`
+ 
+Puis :
+4. Ouvrir un navigateur à l'adresse [http://localhost:4200/](http://localhost:4200/)
